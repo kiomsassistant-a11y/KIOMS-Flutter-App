@@ -1,0 +1,17 @@
+name: kioms_app
+description: KIOMS app with Google Play Billing and AdMob integration.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^2.3.0
+  in_app_purchase: ^3.0.8
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
